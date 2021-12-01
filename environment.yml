@@ -1,0 +1,37 @@
+name: MultiviewPIFu
+channels:
+- pytorch
+- defaults
+- conda-forge
+dependencies:
+- pytorch
+- torchvision
+- pytorch-lightning
+- pyembree
+- trimesh
+- pip:
+  - opencv-python
+  - tqdm
+  - shapely
+  - rtree
+  - xxhash
+  - PyOpenGL
+  - scikit-image
+  - pyexr
+  - pillow
+  - pyembree
+
+
+# Working :
+#   pytorch: 1.7.1
+#   torchvision: 0.8.2
+#   pytorch-lightning: 1.2.8
+#   pyembree: 0.1.6
+#   trimesh: 3.5.23
+#   tqdm: 4.43.0
+#   rtree: 0.9.7
+#   PyOpenGL: 3.1.5
+#   scikit-image: 0.16.2
+#   scikit-image: 1.0.1
+#   pyexr: 0.3.9
+#   pillow: 7.0.0

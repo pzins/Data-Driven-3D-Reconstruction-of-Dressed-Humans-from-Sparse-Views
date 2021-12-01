@@ -1,0 +1,64 @@
+exp:
+  name: persp_scene
+  loadSize: 512
+  num_views: 4
+  random_multiview: False
+  load_parallel: False
+  grid_res: 1
+  grid_size: 2
+  grid_dim: 3
+  partial_grid: False
+  loss: mse
+  z_size: 200
+  projection: "persp_scene"
+  logs_path: "logs"
+  view_fusion: "attention"
+  sampling:
+    sigma: 5.0
+    num_sample_inout: 1000
+
+training:
+  num_threads: 1
+  serial_batches: False
+  pin_memory: False
+  num_sanity: 2
+  batch_size: 1
+  learning_rate: 0.0001
+  num_epoch: 100
+  schedule: [60, 80]
+  resume_epoch: 0
+  val_every_n_epoch: 1
+  val_num_subjects: -1
+  log_every_n_steps: 50
+  num_gpu: 1
+  no_print: False
+
+model:
+  encoder: shg
+  recover_dim: False
+  upsample_mode: bicubic
+  no_residual: False
+  norm: group
+  num_stack: 4
+  num_hourglass: 2
+  skip_hourglass: False
+  hg_down: ave_pool
+  hourglass_dim: 256
+  mlp_dim: [257, 1024, 512, 256, 128, 1]
+  use_tanh: False
+  num_heads: 1
+  use_token: False
+
+data:
+  dataroot: './data'
+  num_subjects: -1
+  random_flip: False
+  random_trans: False
+  random_scale: False
+  aug_alstd: 0.0
+  aug_bri: 0.0
+  aug_con: 0.0
+  aug_sat: 0.0
+  aug_hue: 0.0
+  train_subjects_list: './configs/training_data/rp_train_2.txt'
+  # val_subjects_list: './configs/training_data/rp_val_100.txt'
