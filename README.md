@@ -1,6 +1,6 @@
 # Data-Driven 3D Reconstruction of Dressed Humans From Sparse Views
 
-# **Code is available here : [https://gitlab.inria.fr/pzins/data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views](https://gitlab.inria.fr/pzins/data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views)**
+### **Code is available here : [https://gitlab.inria.fr/pzins/data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views](https://gitlab.inria.fr/pzins/data-driven-3d-reconstruction-of-dressed-humans-from-sparse-views)**
 
 
 This repository is the official Pytorch implementation of the paper **Data-Driven 3D Reconstruction of Dressed Humans From Sparse Views**.
