@@ -2,7 +2,6 @@ exp:
   name: persp_scene
   loadSize: 512
   num_views: 4
-  random_multiview: False
   load_parallel: False
   grid_res: 1
   grid_size: 2
@@ -60,5 +59,6 @@ data:
   aug_con: 0.0
   aug_sat: 0.0
   aug_hue: 0.0
-  train_subjects_list: './configs/training_data/rp_train_2.txt'
-  # val_subjects_list: './configs/training_data/rp_val_100.txt'
+  aug_blur: 0.0
+  train_subjects_list: './configs/training_data/rp_train_800.txt'
+  val_subjects_list: './configs/training_data/rp_val_100.txt'
