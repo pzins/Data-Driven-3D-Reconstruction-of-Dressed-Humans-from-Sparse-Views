@@ -158,7 +158,7 @@ class MVPIFuNet(nn.Module):
                 points = self.create_local_grids(points)
                 points = self.world_to_view_persp_scene_inference(points, calibs)
 
-        if not self.is_test:# and self.cfg["exp"]["num_views"] > 1:
+        if not self.is_test:
             points = points.view(
                 points.shape[0] * points.shape[1],
                 points.shape[2],
