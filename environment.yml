@@ -17,6 +17,7 @@ dependencies:
   - xxhash
   - PyOpenGL
   - scikit-image
+  - scikit-learn
   - pyexr
   - pillow
   - pyembree

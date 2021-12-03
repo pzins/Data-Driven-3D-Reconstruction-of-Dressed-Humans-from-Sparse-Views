@@ -108,6 +108,7 @@ class UNet(nn.Module):
         
 
 
+
         # Original code
         # self.up1 = Up(1024, 512 // factor, bilinear)
         # self.up2 = Up(512, 256 // factor, bilinear)

@@ -1,0 +1,17 @@
+checkpoints/
+checkpoints_trained/
+apps/__pycache__/
+models/__pycache__
+results/
+*.pyc
+sample_images*
+saved_metrics/
+train.txt
+metrics_train.txt
+metrics_test.txt
+./*.png
+im_feat*.npy
+lightning_logs/
+*.log
+logs/
+*.ckpt

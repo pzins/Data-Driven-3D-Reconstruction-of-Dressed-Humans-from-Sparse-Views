@@ -18,7 +18,7 @@ class Evaluator:
 
         self.netG = netG
         self.test_dataset = test_dataset
-        
+
     def evaluate(self):
         for i, data in enumerate(self.test_dataset):
             self.eval_one_subject(data)
