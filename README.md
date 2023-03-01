@@ -9,6 +9,19 @@ This repository is the official Pytorch implementation of the paper **Data-Drive
   <img src='doc/sequence_nathan.gif' height=700/>
 </div>
 
+If you find this project useful for your research, please cite:
+
+```
+@inproceedings{zins2021data,
+  title={Data-driven 3D reconstruction of dressed humans from sparse views},
+  author={Zins, Pierre and Xu, Yuanlu and Boyer, Edmond and Wuhrer, Stefanie and Tung, Tony},
+  booktitle={2021 International Conference on 3D Vision (3DV)},
+  pages={494--504},
+  year={2021},
+  organization={IEEE}
+}
+```
+
 
 ## Requirements
 The file ```environment.yml``` lists the basic dependencies.
