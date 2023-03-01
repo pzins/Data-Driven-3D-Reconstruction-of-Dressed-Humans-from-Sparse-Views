@@ -20,7 +20,7 @@ conda env create -f environment.yml python=3.6
 ```
 
 ## Dataset
-We are not authorized to release the full training/test data due to the restriction of commertial scans [RenderPeople](https://renderpeople.com). 
+We are not authorized to release the full training/test data due to the restriction of commercial scans [RenderPeople](https://renderpeople.com). 
 We provide however the rendering code that we used as well as the train/test/validation split for training (see `./config/training_data/`).
 
 ## Data preparation
