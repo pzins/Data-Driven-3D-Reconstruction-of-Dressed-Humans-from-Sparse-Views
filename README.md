@@ -24,12 +24,11 @@ If you find this project useful for your research, please cite:
 
 
 ## Requirements
-The file ```environment.yml``` lists the basic dependencies.
-Run the following command to create a virtual environment (called *MultiviewPIFu*) with these dependencies installed.
-
-
 ```
-conda env create -f environment.yml python=3.6
+conda create -n mvpifu python=3.7
+conda activate mvpifu
+conda install -c conda-forge pyembree embree=2.17.7 
+pip install -r requirements.txt
 ```
 
 ## Dataset
