@@ -3,6 +3,7 @@
 This repository is the official Pytorch implementation of the paper **Data-Driven 3D Reconstruction of Dressed Humans From Sparse Views**.
 - [arXiv](https://arxiv.org/abs/2104.08013)
 - [HAL](https://hal.inria.fr/view/index/docid/3448770)
+- [Github](https://github.com/pzins/Data-Driven-3D-Reconstruction-of-Dressed-Humans-from-Sparse-Views)
 
 <div align="center">
   <img src='doc/gitlab_teaser_flatten.png'/>
